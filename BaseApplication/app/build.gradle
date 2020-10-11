@@ -16,7 +16,7 @@ android {
 
     buildTypes {
         debug {
-            applicationIdSuffix = '.debug'
+            applicationIdSuffix = '.dev'
             debuggable = true
             buildConfigField('String', 'BaseUrl', DevBaseUrl)
             manifestPlaceholders = [appLabel: "DEV-My APP"]
